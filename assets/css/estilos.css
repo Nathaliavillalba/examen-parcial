@@ -1,0 +1,55 @@
+.form-control {
+    border: 1px solid #daceda;
+    border-radius: 4px;
+    padding: 30px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.form-control:focus {
+    border-color: #80ffd0;
+    box-shadow: 0 0 5px rgba(170, 0, 255, 0.418);
+    outline: none;
+}
+
+button {
+    width: 20%;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    place-items: center;
+}
+
+#enviar {
+    background-color: #00ffae;
+    color: white;
+    text-align: center;
+    place-items: center;
+}
+
+#cambiar {
+    background-color: #6d6c7d;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+.car {
+    border: 2px solid #00fffb; /* Borde verde */
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card-header {
+    background-color: #f8faf9;
+    padding: 10px;
+    border-bottom: 1px solid #00ccff;
+    font-weight: bold;
+}
